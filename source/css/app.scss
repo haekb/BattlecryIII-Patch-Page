@@ -1,0 +1,80 @@
+$bg-cut-off: 900px;
+
+body, html {
+  height: 100%;
+  background-color: black;
+}
+
+h1, h2 {
+  color: #deae8c !important;
+}
+
+p, li {
+  color: #d9d9d9 !important;
+}
+
+.logo {
+  display: none;
+  @media (max-width: $bg-cut-off) {
+    img {
+      max-width: 100%;
+    }
+    margin-top: 32px;
+    text-align: center;
+    display: block;
+  }
+}
+
+.bg-container {
+  background-image: url("../img/Background_Proto.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 1200px;
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 900px;
+  }
+
+  @media (max-width: $bg-cut-off) {
+    background: black;
+  }
+}
+
+.screenshots {
+  float: right;
+  margin-top: 250px;
+  width: 33%;
+  h2 {
+    display: none;
+  }
+  @media (max-width: $bg-cut-off) {
+    width: 100%;
+    float: none;
+    margin-top: 0;
+    img {
+      width: 100%;
+    }
+    h2 {
+      display: block;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+  }
+}
+
+.left-panel {
+  padding-left: 5%;
+  padding-top: 200px;
+  width: 60%;
+  float: left;
+  @media (max-width: $bg-cut-off) {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "battlecry-3-patch",
+  "version": "1.0.0",
+  "description": "Patch page for warlords battlecry 3 widescreen patch",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Breen <battlecry3@heythere.coffee>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
